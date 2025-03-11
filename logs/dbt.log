@@ -1,0 +1,33 @@
+[0m10:57:58.121137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e99f61c63f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e99f55e25a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e99f4b4eab0>]}
+
+
+============================== 10:57:58.125703 | 89f28b9c-b832-4f7a-9d32-fd139cb9d2a0 ==============================
+[0m10:57:58.125703 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:57:58.126472 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/codespace/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:57:58.135204 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/codespace/.dbt')}
+[0m10:57:58.136043 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:58:11.181342 [debug] [MainThread]: Starter project path: /usr/local/python/3.12.1/lib/python3.12/site-packages/dbt/include/starter_project
+[0m10:58:11.186244 [info ] [MainThread]: 
+Your new dbt project "nyc_weather" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:58:11.190317 [info ] [MainThread]: Setting up your profile.
+[0m10:58:11.191909 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m10:58:11.201028 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 13.186933, "process_user_time": 1.781688, "process_kernel_time": 0.252833, "process_mem_max_rss": "86712", "process_in_blocks": "27184", "process_out_blocks": "64", "command_success": false}
+[0m10:58:11.202138 [debug] [MainThread]: Command `dbt init` failed at 10:58:11.201983 after 13.19 seconds
+[0m10:58:11.203098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e99f61c63f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e99f4b4eab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e99f46776b0>]}
+[0m10:58:11.203817 [debug] [MainThread]: Flushing usage events
