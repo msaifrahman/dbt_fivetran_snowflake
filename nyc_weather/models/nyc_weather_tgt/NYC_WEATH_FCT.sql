@@ -1,0 +1,1 @@
+select * from {{ref('read_s3_stage_table')}}
