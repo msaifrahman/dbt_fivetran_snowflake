@@ -7,7 +7,7 @@ my-snowflake-db:
 
       # User/password auth
       user: JACKHUGHE
-      password: "{{ env_var('SNOWFLAKE_PWD') }}"
+      password: "{{ env_var('DBT_SNOWFLAKE_PWD') }}"
 
       database: PRJCT
       warehouse: COMPUTE_WH
