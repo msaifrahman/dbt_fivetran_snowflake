@@ -1,0 +1,1 @@
+{"_invocation_id": "50a8363f-7299-4e90-a153-9174cab3804b", "linked": {"0": {"name": "model.nyc_weather.read_s3_stage_table", "type": "model", "succ": [1]}, "1": {"name": "model.nyc_weather.NYC_WEATH_FCT", "type": "model"}}}

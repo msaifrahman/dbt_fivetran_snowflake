@@ -10,12 +10,12 @@ profile: 'my-snowflake-db'
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
-model-paths: ["models"]
-analysis-paths: ["analyses"]
-test-paths: ["tests"]
-seed-paths: ["seeds"]
-macro-paths: ["macros"]
-snapshot-paths: ["snapshots"]
+model-paths: ["./nyc_weather/models"]
+analysis-paths: ["./nyc_weather/analyses"]
+test-paths: ["./nyc_weather/tests"]
+seed-paths: ["./nyc_weather/seeds"]
+macro-paths: ["./nyc_weather/macros"]
+snapshot-paths: ["./nyc_weather/snapshots"]
 
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
